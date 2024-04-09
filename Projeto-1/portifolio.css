@@ -1,0 +1,23 @@
+
+:root {
+    --cor0: #454ABB;
+    --cor1: #4D5091;
+    --cor2: #AE19E3;
+
+}
+body {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+    padding: 2.5%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.685);
+} 
+header{
+    text-align: center;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+main img {
+    width: 20%;
+}
